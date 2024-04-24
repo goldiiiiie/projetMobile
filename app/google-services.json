@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "789028063630",
+    "project_id": "syndicat-db",
+    "storage_bucket": "syndicat-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789028063630:android:e46a1ed14d9a34cf903cdf",
+        "android_client_info": {
+          "package_name": "com.example.projetandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjZ8Taui1eEVyqBv-d_Sb9ndYv8BnQvvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
