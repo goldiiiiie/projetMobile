@@ -5,4 +5,6 @@
 
     <color name="my_primary">#5E35B1</color>
     <color name="my_secondary">#5E35B1</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
 </resources>

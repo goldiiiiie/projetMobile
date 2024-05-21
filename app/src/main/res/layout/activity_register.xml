@@ -9,13 +9,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title_login"
+        android:text="@string/title_register"
         android:layout_gravity="center"
         android:textStyle="bold"
         android:layout_marginBottom="70dp"/>
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/email_icon"
@@ -24,7 +24,7 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:textColorHint="#757575"
-         />
+        />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -38,18 +38,57 @@
         android:minHeight="48sp"
         android:textColorHint="#757575" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/signin"
-        android:layout_gravity="center" />
+
+        android:ems="10"
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/user"
+        android:hint="Nom et Prenom"
+        android:minHeight="48sp"
+        android:textColorHint="#757575" />
+
+
+    <EditText
+        android:id="@+id/nappartement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/appart"
+        android:hint="numero appartement"
+        android:minHeight="48sp"
+        android:textColorHint="#757575"/>
+
+    <EditText
+        android:id="@+id/nimmeuble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/immeuble"
+        android:hint="numero immeuble"
+        android:minHeight="48sp"
+        android:textColorHint="#757575"/>
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:text="@string/register" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/registerRedirectText"
-        android:text="Not yet registered? Sign Up"
+        android:id="@+id/loginRedirectText"
+        android:text="Already a user? Login"
         android:layout_gravity="center"
         android:padding="8dp"
         android:layout_marginTop="10dp"
